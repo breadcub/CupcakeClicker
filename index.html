@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Tooth Clicker</title>
+</head>
+<body>  
+    <div class="sectionLeft">
+        <center>
+        <div class="scoreContainer">
+     <span id="score">0</span><img src="images/coinstack-transformed.png" class="coinPic"><br>
+    <br>
+    <span id="scorePerSecond">0</span><img src="images/coincupcake.png">/second<br>
+        </div>
+
+        <div class="clickContainer">
+    <img src="cupcakeExampleImage.png"  height="256px" width="256" onclick="addToScore(clickingPower)">
+    </div>
+</div>
+</center>
+</div>
+<div class="sectionRight">
+    <table class="shopButton" onclick="buySprinkles()">
+        <tr>
+            <td id="image"><img class="itemPic" src="images/sprinkles.png" ></td>
+            <td id="nameAndCost"> 
+                <p>Sprinkles</p>
+                <p><span id="sprinklesCost">15</span> <img class="coinPic" src="images/coincupcake.png"></p>
+            </td>
+            <td id="amount">owned: <span id="sprinkles">0</span></td>
+        </tr>
+        </table>
+        <br>
+<table class="shopButton" onclick="buyGumball()">
+    <tr>
+        <td id="image"><img class="itemPic" src="images/gumball.webp" ></td>
+        <td id="nameAndCost"> 
+            <p>Gumball</p>
+            <p><span id="gumballCost">150</span> <img class="coinPic" src="images/coincupcake.png"></p>
+        </td>
+        <td id="amount">owned: <span id="gumballs">0</span></td>
+    </tr>
+    </table>
+    <br>
+    <table class="shopButton" onclick="buyGummyBear()">
+        <tr>
+            <td id="image"><img class="itemPic" src="images/gummybear.jpg" ></td>
+            <td id="nameAndCost">
+                <p>Gummy Bear</p>
+                <p><span id="gummyBearCost">1500</span> <img class="coinPic" src="images/coincupcake.png"></p>
+            </td>
+            <td id="amount">owned: <span id="gummyBear">0</span></td>
+        </tr>
+        </table>
+        <br>
+        <table class="shopButton" onclick="buyStrawberry()">
+            <tr>
+                <td id="image"><img class="itemPic" src="images/strawberry.jpg" ></td>
+                <td id="nameAndCost">
+                    <p>Strawberry</p>
+                    <p><span id="strawberryCost">150000</span> <img class="coinPic" src="images/coincupcake.png"></p>
+                </td>
+                <td id="amount">owned: <span id="strawberry">0</span></td>
+            </tr>
+            </table>
+            <br>
+            <br>
+            <table class="shopButton" onclick="buyDrizzle()">
+                <tr>
+                    <td id="image"><img class="itemPic" src="images/drizzle.jpg" ></td>
+                    <td id="nameAndCost">
+                        <p>Chocolate Drizzle</p>
+                        <p><span id="drizzleCost">1500000</span> <img class="coinPic" src="images/coincupcake.png"></p>
+                    </td>
+                    <td id="amount">owned: <span id="drizzle">0</span></td>
+                </tr>
+                </table>
+</div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

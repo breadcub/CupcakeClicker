@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+
+
+.scoreContainer{
+    background-color: rgba(200, 100, 200, 60%);
+    width:50%;
+    height:20%;
+    color:white;
+    border-radius:10px;
+    text-align: center;
+    font-family: 'Rubik Bubbles', cursive;
+    padding-bottom:20px;
+    font-size: 35px;
+
+
+}
+
+}
+.clickContainer img{
+    position:relative;
+    transition: all .2s ease-in-out;
+}
+.clickContainer img:hover { transform: scale(1.05);}
+
+.clickContainer img:active { transform: scale(.99);}
+
+.sectionLeft{
+    background-color: ;
+    float:left; 
+    width:75%;
+    padding-top: 20px;
+    
+
+}
+.scoreContainer img{
+    height:40px;
+    width:40px;
+    padding-top:10px;
+    margin-bottom:-10px;
+
+}
+.sectionRight{
+    color:white;
+    float:right;
+    width:25%;
+    border-radius:10px;
+}
+body{
+    background:pink;
+    display:flex;
+
+}
+ 
+.shopButton{
+    background-color:#ca9dca;
+    transition: all .2s ease-in-out;
+    border-radius:10px;
+    width:100%;
+    height:100%
+    margin: 10px 0px 10px 0px;
+}
+
+.shopButton:hover{
+    background-color: #551e4e;
+    transition: all .2s ease-in-out;
+
+}
+.shopButton #image{
+    width:20%;
+}
+ 
+.itemPic{
+    height: 50px; 
+    width:50px;
+    border-radius:45px;
+    margin-top:5px;
+    margin-left:3px;
+}
+
+.shopButton #nameAndCost p{
+    margin:0px;
+    width: 80%;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.shopButton #nameAndCost p: first-of-type{
+    font-size:24px;
+}
+
+
+.shopButton #amount{
+    font-size:24px;
+    width: 15%;
+    font-family: 'Rubik Bubbles', cursive;
+    text-align:right;
+}
+
+.coinPic{
+    height:30px;
+    width:30px;
+    margin-bottom:-8px;
+}
